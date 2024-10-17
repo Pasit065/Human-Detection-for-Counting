@@ -9,5 +9,9 @@ class SqlQueries():
             )"""
 
         self.INSERT_NEW_INTRUDER_STATEMENT = f"""
-                INSERT INTO intruders (the_amount_of_intruders, date, time)
+                INSERT INTO intruders(the_amount_of_intruders, date, time)
                 VALUES """
+        
+        self.SELECT_ALL_FROM_INTRUDERS_TABLE = """
+        SELECT *
+        FROM intruders"""
