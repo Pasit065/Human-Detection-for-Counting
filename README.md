@@ -30,6 +30,8 @@ This project will store data in *Google Sheet* and *database*
 - *Google Sheet* will store intruders data in table format which features total intruders that were found and found date and time.
 
 - *Database* will store intruders data like *Google Sheet* which features total intruders that were found and found date and time column.
+## Diagram
+![](./public/Human_Detection_Flowchart.png)
 
 ## Usage
 Before execute the project, a few setup is required.
